@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pedro Syd</title>
+
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+
+    <!-- Frameworks -->
+    <script src="js/jquery-3.1.0.min.js"></script>
+
+    <!-- Custom -->
+    <link rel="stylesheet" href="css/custom.css" media="screen" title="no title">
+    <script src="js/main.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+
+      <div class="olympus">
+        <img class="header-logo" src="img/logo.svg" alt="Pedro Syd" />
+      </div>
+
+      <div class="gaia text-tile intro">
+
+        <p id="welcome-text">Welcome to the camp!</p>
+
+        <p>
+          My name is Pedro Syd and I try not to describe myself by a
+          title. If you insist, you can refeer to me as Pedro, son of Marco Aquino.
+
+          I'm majored in Business and
+            <span class="tooltip">
+              recently
+              <span class="tooltiptext">
+                <span class="not-working"></span> ago
+              </span>
+            </span> I left my job as a Operations
+          Coordinator at Uber to learn Computer Science on the web!
+
+          Prior to Uber I worked at BTG Pactual (Investment Banking), Boeing
+          (Aerospace) and interned at Ideiasnet (Venture Capital).
+        </p>
+
+        <p>
+          Check out some of my work! All of it was done during the
+          <a target="_blank" href ="https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004">Full Stack Web Developer Nanodegree</a> by Udacity!
+        </p>
+
+      </div>
+
+
+      <div id="movie-img" class="apollo img-block">
+        <img class="square-img" src="img/movie.svg" alt="Movie Project " data-target-box="1" />
+      </div>
+
+      <div id="movie-desc" class="project-desc-mobile text-tile">
+        <h2 class="project-title highlight"> Movie Project </h2>
+        <p>
+          Server-side code to fetch a list of random movies, including box art
+          imagery and a movie trailer URL. The content is provided by TheMovieDB
+          API. Data is served as a <a href="#!">web page</a> allowing visitors to view movie
+          information and watch the trailers.
+        </p>
+      </div>
+
+      <div id="linux-server-img" class="apollo img-block">
+        <img class="square-img" src="img/linux-server.svg" alt="Linux Server Project " data-target-box="1" />
+      </div>
+
+      <div id="linux-server-desc" class="project-desc-mobile text-tile">
+        <h2 class="project-title highlight"> Linux Server Project </h2>
+        <p>
+          Used a baseline installation of a Linux distribution on a
+          virtual machine and prepared it to host my web applications, to include
+          installing updates, securing it from a number of attack vectors and
+          installing/configuring web and database servers.
+        </p>
+      </div>
+
+      <div id="gameapi-img" class="apollo img-block">
+        <img class="square-img" src="img/gameapi.svg" alt="Game API Project " data-target-box="1" />
+      </div>
+
+      <div id="gameapi-desc" class="project-desc-mobile text-tile">
+        <h2 class="project-title highlight"> Game API Project </h2>
+        <p>
+          Developed a game of PLACEHOLDER.
+          Wrote an API with endpoints that will allow anyone to develop a
+          front-end for the game.
+          <a href="#!"> Check out the API for yourself</a>, maybe you can code something fun using
+          it!
+        </p>
+      </div>
+
+      <div id="tournament-img" class="apollo img-block">
+        <img class="square-img" src="img/tournament.svg" alt="Tournament Project " data-target-box="1" />
+      </div>
+
+      <div id="tournament-desc" class="project-desc-mobile text-tile">
+        <h2 class="project-title highlight"> Tournament Project </h2>
+        <p>
+          Developed a database schema to store the game matches between
+          players. Wrote code to query this data and determine the winners of
+          various games.
+        </p>
+      </div>
+
+      <!-- Collapsible tile to show project description on larger devices -->
+      <div id="desc-box-1" class="gaia collapsable-block text-tile" hidden>
+        <p class="project-desc-full">
+        </p>
+      </div>
+
+      <div id="blog-img" class="cronus img-block">
+        <!-- I didn't use picture element as it's not supported by IE yet -->
+        <img class="three-by-one-img full-only" src="img/blog.svg" alt="Multi User Blog Project" data-target-box="2" />
+        <img class="square-img mobile-only" src="img/blog-small.svg" alt="Multi User Blog Project" data-target-box="2" />
+      </div>
+
+      <div id="blog-desc" class="project-desc-mobile text-tile">
+        <h2 class="project-title highlight"> Multi User Blog Project </h2>
+        <p>
+          A <a href="#!">multi user blog</a> (along the lines of Medium) where users can sign in
+          and post blog posts as well as 'Like' and 'Comment' on other posts
+          made on the blog. The blog includes a an authentication system and is
+          hosted on Google App Engine
+        </p>
+      </div>
+
+
+      <div id="catalog-img" class="apollo img-block">
+        <img class="square-img" src="img/catalog.svg" alt="Item Catalog Project" data-target-box="2" />
+      </div>
+
+      <div id="catalog-desc" class="project-desc-mobile text-tile">
+        <h2 class="project-title highlight"> Item Catalog Project </h2>
+        <p>
+          An <a href="#!">application</a> that provides a list of items within a variety of
+          categories as well as provide a user registration and authentication
+          system. Registered users will have the ability to post, edit and delete
+          their own items.
+        </p>
+      </div>
+
+      <div id="desc-box-2" class="gaia collapsable-block text-tile" hidden>
+          <p class="project-desc-full">
+          </p>
+      </div>
+
+      <div id="city-img" class="zeus img-block">
+        <!-- I didn't use picture element as it's not supported by IE yet -->
+        <img class="two-by-one-img full-only" src="img/city.svg" alt="Neighbourhood Map Project" data-target-box="2" />
+        <img class="square-img mobile-only" src="img/city-small.svg" alt="Neighbourhood Map Project" data-target-box="2" />
+      </div>
+
+      <div id="city-desc" class="project-desc-mobile text-tile">
+        <h2 class="project-title highlight"> Neighbourhood Map </h2>
+        <p>
+          A <a href="#!">single-page application</a> featuring a map of my neighborhood.
+          Some of the page features are: map markers to identify popular
+          locations, a search function to easily discover them, and a listview of
+          all locations. Made use of APIs such as StreetView and Wikipedia.
+        </p>
+      </div>
+
+      <div id="portfolio-img" class="zeus img-block">
+        <!-- I didn't use picture element as it's not supported by IE yet -->
+        <img class="two-by-one-img full-only"   src="img/portfolio.svg" alt="Porfolio Project" data-target-box="2" />
+        <img class="square-img mobile-only" src="img/portfolio-small.svg" alt="Porfolio Project" data-target-box="2" />
+      </div>
+
+      <div id="portfolio-desc" class="project-desc-mobile text-tile">
+        <h2 class="project-title highlight"> Porfolio Project </h2>
+        <p>
+          This is the website you are seeing right now... Inception! It's responsive,
+          very light-weight (all images are vectors) and therefore it's mobile-friendly.
+          I used 3 breakpoints and didn't omit any content on any view. No frameworks
+          were used to add responsiveness.
+        </p>
+      </div>
+
+      <footer>
+          <div class="tartarus">
+            <div class="contact">
+              <p>
+                <a target="_blank" href="https://github.com/p3u"> GitHub </a> //
+                <a target="_blank" href="https://br.linkedin.com/in/pedro-saadi-alves-de-aquino-17762733"> LinkedIn </a> //
+                <a target="_blank" href="https://medium.com/@pedropauloaquino"> Medium </a>
+              </p>
+            </div>
+          </div>
+      </footer>
+    </div>
+  </body>
+
+</html>
